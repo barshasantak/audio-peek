@@ -189,67 +189,63 @@ Stop guessing what is inside your audio containers. Verify bit depths, confirm s
 
 <div style="max-width: 840px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px;">
 
-  <!-- Question 1 -->
-  <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
-    <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem;">
-      <span>Does AudioPeek alter or modify my audio files?</span>
-      <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
-    </summary>
-    <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); color: #424245; font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-      No. AudioPeek operates strictly in <strong>read-only mode</strong>. It inspects container headers and bitstreams without modifying a single byte of your audio data.
-    </div>
-  </details>
+<!-- Question 1 -->
+<details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
+  <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
+    <span>Does AudioPeek alter or modify my audio files?</span>
+    <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
+  </summary>
+  <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
+    No. AudioPeek operates strictly in <strong>read-only mode</strong>. It inspects container headers and bitstreams without modifying a single byte of your audio data.
+  </div>
+</details>
 
-  <!-- Question 2 -->
-  <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
-    <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem;">
-      <span>Where are diagnostic logs stored?</span>
-      <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
-    </summary>
-    <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); color: #424245; font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-      AudioPeek maintains rolling daily logs formatted as <code>audiopeek-YYYY-MM-DD.log</code>. You can reveal your log folder directly in Finder anytime by pressing <kbd style="background: rgba(128,128,128,0.15); padding: 2px 6px; border-radius: 4px; font-family: monospace;">⇧ + ⌘ + L</kbd> (or via <strong>Help → Show Logs in Finder</strong>).
-    </div>
-  </details>
+<!-- Question 2 -->
+<details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
+  <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
+    <span>Where are diagnostic logs stored?</span>
+    <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
+  </summary>
+  <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
+    AudioPeek maintains rolling daily logs formatted as <code>audiopeek-YYYY-MM-DD.log</code>. You can reveal your log folder directly in Finder anytime by pressing <kbd style="background: rgba(128,128,128,0.15); padding: 2px 6px; border-radius: 4px; font-family: monospace;">⇧ + ⌘ + L</kbd> (or via <strong>Help → Show Logs in Finder</strong>).
+  </div>
+</details>
 
-  <!-- Question 3 -->
-  <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
-    <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem;">
-      <span>Is AudioPeek private?</span>
-      <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
-    </summary>
-    <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); color: #424245; font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-      Yes. AudioPeek is <strong>100% secure</strong>. It contains zero analytics, no telemetry, no tracking, and never makes unauthorized network connections.
-    </div>
-  </details>
+<!-- Question 3 -->
+<details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
+  <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
+    <span>Is AudioPeek private?</span>
+    <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
+  </summary>
+  <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
+    Yes. AudioPeek is <strong>100% secure</strong>. It contains zero analytics, no telemetry, no tracking, and never makes unauthorized network connections.
+  </div>
+</details>
 
- <!-- Question 4 -->
-  <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
-    <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem;">
-      <span>Can AudioPeek verify true Hi-Res Lossless formats, bit depths, and multichannel channel layouts?</span>
-      <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
-    </summary>
-    <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); color: #424245; font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-      Yes. AudioPeek introspects container headers to verify true quantization bit depth (16-bit, 24-bit, or 32-bit floating point), native sampling rates (44.1 kHz up to 192+ kHz), bitrates (CBR vs. VBR), and channel layouts (Mono, Stereo, 5.1 Surround, 7.1.2/7.1.4 Spatial Audio beds) across FLAC, ALAC, WAV, AIFF, AAC, and MP3 without audio decoding or playback latency.
-    </div>
-  </details>
-  
-  <!-- Question 5 -->
-  <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
-    <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem;">
-      <span>How do I report a bug or request a new codec?</span>
-      <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
-    </summary>
-    <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); color: #424245; font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-      You can open an issue or start a discussion on our official <a href="https://github.com/barshasantak/audiopeek/issues" style="color: #0071e3; text-decoration: underline; font-weight: 500;">GitHub Issues page</a>.
-    </div>
-  </details>
+<!-- Question 4 -->
+<details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
+  <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
+    <span>Can AudioPeek verify true Hi-Res Lossless formats, bit depths, and multichannel channel layouts?</span>
+    <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
+  </summary>
+  <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
+    Yes. AudioPeek introspects container headers to verify true quantization bit depth (16-bit, 24-bit, or 32-bit floating point), native sampling rates (44.1 kHz up to 192+ kHz), bitrates (CBR vs. VBR), and channel layouts (Mono, Stereo, 5.1 Surround, 7.1.2/7.1.4 Spatial Audio beds) across FLAC, ALAC, WAV, AIFF, AAC, and MP3 without audio decoding or playback latency.
+  </div>
+</details>
+
+<!-- Question 5 -->
+<details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
+  <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
+    <span>How do I report a bug or request a new codec?</span>
+    <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
+  </summary>
+<div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
+    You can open an issue or start a discussion on our official <a href="https://forms.gle/XDUkjJ2TJzEruakX9" style="color: #0071e3; text-decoration: underline; font-weight: 500;">Issue Tracker</a>.
+  </div>
+</details>
 
 </div>
 
-
-### Support
-
-You can report any issues here: [https://github.com/barshasantak/audiopeek/issues](https://github.com/barshasantak/audiopeek/issues){:target="_blank"}
 
  <br>
  
