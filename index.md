@@ -1,13 +1,13 @@
 <!-- =========================================================================
-     AUDIOPEEK PUBLIC WEBSITE
+     AUDIO-PEEK PUBLIC WEBSITE
      Design by Tara Design Studio
 ========================================================================= -->
 
 ## 🎹 The Hero Section
-![AudioPeek](https://raw.githubusercontent.com/barshasantak/audiopeek/main/AudioPeek_256.png)
+![Audio-Peek](https://raw.githubusercontent.com/barshasantak/audio-peek/main/AudioPeek_256.png)
 <br>
 
-### See Beneath the Waveform with AudioPeek.
+### See Beneath the Waveform with Audio-Peek.
 The native, studio-grade audio specification analyzer and side-by-side A-B diff comparator engineered exclusively for macOS.
 
 
@@ -29,7 +29,7 @@ The native, studio-grade audio specification analyzer and side-by-side A-B diff 
 
 ## 📖 The Product Story
 
-### *Why we built AudioPeek*
+### *Why we built Audio-Peek*
 
 If you work with sound—whether you are a mastering engineer, sound designer, podcaster, or high-resolution audiophile—you encounter a constant frustration: **audio metadata tools are broken**.
 
@@ -39,7 +39,7 @@ If you work with sound—whether you are a mastering engineer, sound designer, p
 
 We asked a simple question: **What if you had a blazing-fast, visually pristine Mac app that reveals the complete DNA of any audio file in under 200 milliseconds?**
 
-AudioPeek was created at **Tara Design Studio** to answer that need. Built from the ground up in 100% native Swift and SwiftUI, AudioPeek taps directly into Apple’s low-level `CoreAudio`, `AudioToolbox`, and `CryptoKit` engines. No web runtimes. No memory bloat. Just pure, instant audio intelligence.
+Audio-Peek was created at **Tara Design Studio** to answer that need. Built from the ground up in 100% native Swift and SwiftUI, Audio-Peek taps directly into Apple’s low-level `CoreAudio`, `AudioToolbox`, and `CryptoKit` engines. No web runtimes. No memory bloat. Just pure, instant audio intelligence.
 
 
 
@@ -53,7 +53,7 @@ AudioPeek was created at **Tara Design Studio** to answer that need. Built from 
     </td>
     <td width="50%" valign="top">
       <h3>⚖️ Side-by-Side A-B Audio Comparator</h3>
-      <p>Compare two audio files simultaneously. AudioPeek aligns property keys and instantly highlights format mismatches, sample rate conversions, and missing metadata tags.</p>
+      <p>Compare two audio files simultaneously. Audio-Peek aligns property keys and instantly highlights format mismatches, sample rate conversions, and missing metadata tags.</p>
     </td>
   </tr>
   <tr>
@@ -82,7 +82,7 @@ AudioPeek was created at **Tara Design Studio** to answer that need. Built from 
 
 ## 🎯 Universal Format Support
 
-AudioPeek parses both uncompressed studio masters and modern web formats:
+Audio-Peek parses both uncompressed studio masters and modern web formats:
 
 | Format Category | Supported Codecs & Containers |
 | :--- | :--- |
@@ -94,16 +94,16 @@ AudioPeek parses both uncompressed studio masters and modern web formats:
 
 
 
-## 🏆 Why AudioPeek is Different
+## 🏆 Why Audio-Peek is Different
 
-Most diagnostic utilities are bloated ports. AudioPeek is built exclusively for macOS:
+Most diagnostic utilities are bloated ports. Audio-Peek is built exclusively for macOS:
 
 <div style="overflow-x: auto; margin: 24px 0;">
   <table style="width: 100%; border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 0.9rem; text-align: left; border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden;">
     <thead>
       <tr style="background: rgba(128,128,128,0.1); border-bottom: 2px solid rgba(128,128,128,0.25);">
         <th style="padding: 12px 16px; width: 30%;">Capability / Metric</th>
-        <th style="padding: 12px 16px; width: 25%; background: rgba(0, 113, 227, 0.08); color: #0071e3; font-weight: 700;">AudioPeek</th>
+        <th style="padding: 12px 16px; width: 25%; background: rgba(0, 113, 227, 0.08); color: #0071e3; font-weight: 700;">Audio-Peek</th>
         <th style="padding: 12px 16px; width: 25%;">Electron Tag Editors</th>
         <th style="padding: 12px 16px; width: 20%;">ffprobe (CLI)</th>
       </tr>
@@ -160,7 +160,7 @@ Most diagnostic utilities are bloated ports. AudioPeek is built exclusively for 
 ## ✨ User Experience Highlights
 
 ### 1. Dual-Drop Compare Mode
-Select two tracks in Finder (like your Master WAV and your Spotify MP3 upload) and drag them together onto AudioPeek. The window instantly transitions into a **two-column comparative diff table**, highlighting mismatches in bold amber and identical parameters in calm green.
+Select two tracks in Finder (like your Master WAV and your Spotify MP3 upload) and drag them together onto Audio-Peek. The window instantly transitions into a **two-column comparative diff table**, highlighting mismatches in bold amber and identical parameters in calm green.
 
 ### 2. Zero Wait Time on Massive Files
 Thanks to non-blocking stream demuxing, dropping a **15 GB DSD256 orchestra master** takes the exact same fraction of a second as opening a **3 MB MP3 voice memo**.
@@ -192,11 +192,11 @@ Stop guessing what is inside your audio containers. Verify bit depths, confirm s
 <!-- Question 1 -->
 <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
   <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
-    <span>Does AudioPeek alter or modify my audio files?</span>
+    <span>Does Audio-Peek alter or modify my audio files?</span>
     <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
   </summary>
   <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-    No. AudioPeek operates strictly in <strong>read-only mode</strong>. It inspects container headers and bitstreams without modifying a single byte of your audio data.
+    No. Audio-Peek operates strictly in <strong>read-only mode</strong>. It inspects container headers and bitstreams without modifying a single byte of your audio data.
   </div>
 </details>
 
@@ -207,29 +207,29 @@ Stop guessing what is inside your audio containers. Verify bit depths, confirm s
     <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
   </summary>
   <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-    AudioPeek maintains rolling daily logs formatted as <code>audiopeek-YYYY-MM-DD.log</code>. You can reveal your log folder directly in Finder anytime by pressing <kbd style="background: rgba(128,128,128,0.15); padding: 2px 6px; border-radius: 4px; font-family: monospace;">⇧ + ⌘ + L</kbd> (or via <strong>Help → Show Logs in Finder</strong>).
+    Audio-Peek maintains rolling daily logs formatted as <code>audio-peek-YYYY-MM-DD.log</code>. You can reveal your log folder directly in Finder anytime by pressing <kbd style="background: rgba(128,128,128,0.15); padding: 2px 6px; border-radius: 4px; font-family: monospace;">⇧ + ⌘ + L</kbd> (or via <strong>Help → Show Logs in Finder</strong>).
   </div>
 </details>
 
 <!-- Question 3 -->
 <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
   <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
-    <span>Is AudioPeek private?</span>
+    <span>Is Audio-Peek private?</span>
     <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
   </summary>
   <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-    Yes. AudioPeek is <strong>100% secure</strong>. It contains zero analytics, no telemetry, no tracking, and never makes unauthorized network connections.
+    Yes. Audio-Peek is <strong>100% secure</strong>. It contains zero analytics, no telemetry, no tracking, and never makes unauthorized network connections.
   </div>
 </details>
 
 <!-- Question 4 -->
 <details style="border: 1px solid rgba(128,128,128,0.25); border-radius: 8px; overflow: hidden; background: rgba(128,128,128,0.02); transition: all 0.2s ease;">
   <summary style="padding: 14px 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; font-size: 1rem; list-style: none;">
-    <span>Can AudioPeek verify true Hi-Res Lossless formats, bit depths, and multichannel channel layouts?</span>
+    <span>Can Audio-Peek verify true Hi-Res Lossless formats, bit depths, and multichannel channel layouts?</span>
     <span style="font-size: 0.75rem; color: #0071e3; font-weight: 600; background: rgba(0,113,227,0.1); padding: 4px 10px; border-radius: 999px; white-space: nowrap; margin-left: 12px;">+ View Answer ▾</span>
   </summary>
   <div style="padding: 14px 18px 18px 18px; border-top: 1px solid rgba(128,128,128,0.15); font-size: 0.95rem; line-height: 1.6; background: rgba(128,128,128,0.01);">
-    Yes. AudioPeek introspects container headers to verify true quantization bit depth (16-bit, 24-bit, or 32-bit floating point), native sampling rates (44.1 kHz up to 192+ kHz), bitrates (CBR vs. VBR), and channel layouts (Mono, Stereo, 5.1 Surround, 7.1.2/7.1.4 Spatial Audio beds) across FLAC, ALAC, WAV, AIFF, AAC, and MP3 without audio decoding or playback latency.
+    Yes. Audio-Peek introspects container headers to verify true quantization bit depth (16-bit, 24-bit, or 32-bit floating point), native sampling rates (44.1 kHz up to 192+ kHz), bitrates (CBR vs. VBR), and channel layouts (Mono, Stereo, 5.1 Surround, 7.1.2/7.1.4 Spatial Audio beds) across FLAC, ALAC, WAV, AIFF, AAC, and MP3 without audio decoding or playback latency.
   </div>
 </details>
 
