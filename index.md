@@ -25,7 +25,7 @@ The native, studio-grade audio specification analyzer and side-by-side A-B diff 
     │ Duration 03:45.120 [DIFF] 03:45.145 (Drift: +25.0 ms)                                               │
     └─────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
-
+ 
 
 ## 📖 The Product Story
 
@@ -175,7 +175,6 @@ Thanks to non-blocking stream demuxing, dropping a **15 GB DSD256 orchestra mast
 ## 🚀 Elevate Your Audio Workflow
 
 Stop guessing what is inside your audio containers. Verify bit depths, confirm sample rate conversions, and validate release metadata with pixel-perfect precision.
-
 
 
 
