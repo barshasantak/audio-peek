@@ -4,7 +4,7 @@
 ========================================================================= -->
 
 ## 🎹 The Hero Section
-![Audio-Peek](https://raw.githubusercontent.com/barshasantak/audio-peek/main/AudioPeek_256.png)
+![Audio-Peek](https://raw.githubusercontent.com/barshasantak/audio-peek/main/AudioPeek_128.png)
 <br>
 
 ### See Beneath the Waveform with Audio-Peek.
