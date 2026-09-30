@@ -9,23 +9,11 @@
 
 ### See Beneath the Waveform with Audio-Peek.
 The native, studio-grade audio specification analyzer and side-by-side A-B diff comparator engineered exclusively for macOS.
-
-
-    ┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
-    │ 📂 Open File... │ ⚖️ Compare... │ 💾 Export JSON │ 📋 Copy │ Report Font: A- 100% A+ ↺   🔍 Filter  │
-    ├─────────────────────────────────────────────────────────────────────────────────────────────────────┤
-    │ MASTER_96k24b.wav (File A) │ [ ↔ 2 Mismatches ] │ STREAM_DIST.m4a (File B)                          │
-    │ Format: Linear PCM 24-bit 96kHz │ Time Drift: +25.00 ms │ Format: Apple Lossless (ALAC)             │
-    ├───────────────────────────────────────┴─────────────────────────┴───────────────────────────────────┤
-    │ [AUDIO STREAM DETAILS]                                                                              │
-    │ Audio Format Linear PCM (WAV) [DIFF] Apple Lossless (ALAC)                                          │
-    │ Sample Rate 96,000 Hz [DIFF] 44,100 Hz                                                              │
-    │ Bits Per Sample 24-bit [MATCH] 24-bit                                                               │
-    │ Channels 2 (Stereo) [MATCH] 2 (Stereo)                                                              │
-    │ Duration 03:45.120 [DIFF] 03:45.145 (Drift: +25.0 ms)                                               │
-    └─────────────────────────────────────────────────────────────────────────────────────────────────────┘
-
- 
+<br>
+![Audio-Peek-002](https://raw.githubusercontent.com/barshasantak/audio-peek/main/Audio-Peek-002.png)
+<br>
+![Audio-Peek-003](https://raw.githubusercontent.com/barshasantak/audio-peek/main/Audio-Peek-003.png)
+<br>
 
 ## 📖 The Product Story
 
