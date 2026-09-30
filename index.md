@@ -162,7 +162,7 @@ Thanks to non-blocking stream demuxing, dropping a **15 GB DSD256 orchestra mast
 
 ## 🚀 Elevate Your Audio Workflow
 
-Stop guessing what is inside your audio containers. Verify bit depths, confirm sample rate conversions, and validate release metadata with pixel-perfect precision.
+Stop guessing what is inside your audio containers. Verify bit depths, confirm sample rate conversions, and validate release metadata with precision.
 
 
 
